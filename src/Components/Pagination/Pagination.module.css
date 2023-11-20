@@ -1,0 +1,95 @@
+.parent{
+    width: 100%;
+    height: 95vh;
+    z-index: 0;
+    overflow: hidden;
+}
+.listParent{
+    width: 60%;
+    height: 100%;
+    background-color: 100%;
+    background-color: #FBFFDE;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+.listParent ul{
+    list-style: none;
+    border: 1px solid black;
+}
+.listParent ul li{
+    margin:20px;
+}
+.listParent ul:hover{
+    background-color: rgba(186, 186, 186, 0.357);
+}
+.active{
+    background-color:  rgba(186, 186, 186, 0.735) !important;
+}
+.feedBack{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    text-align: center;
+}
+.restDiv{
+    width: 40%;
+    height: 85vh;
+    z-index: 1;
+    background-color: #fae3ce;
+    position: absolute;
+    top: 5vh;
+    right: 0;
+    border-bottom: 1px solid black;
+    transform: translateY(-110%);
+    overflow: auto;
+}
+.restDiv p{
+    color: rgba(255, 255, 255, 0.817);
+    font-size: x-large ;
+    text-align: center;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.805);
+    padding: 6px;
+    margin-bottom: 24px;
+    width: 100%;
+    border-radius: 3px;
+    position: sticky;
+    top: 0;
+}
+.restList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.toActive{
+    transform: translateY(0%);
+    /* transition: 3s linear;    */
+}
+
+.restDiv ul{
+    list-style: none;
+}
+.pagination{
+    position: absolute;
+    bottom: 2%;
+    left: 1%;
+}
+.prevNext{
+    background-color: gray;
+    padding: 3px;
+    border-radius: 4px;
+    margin: 0 1px;
+}
+.stylePage{
+    background-color: gray;
+    padding: 6px;
+    margin: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.pageActive{
+    background-color: #61A3BA;
+}

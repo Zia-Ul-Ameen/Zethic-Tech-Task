@@ -1,0 +1,15 @@
+.parent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.barChart{
+    width: 1000px;
+    height:650px;
+    display: flex;
+    align-items: center;
+}
+.parent p{
+    margin-top: 20px;
+}

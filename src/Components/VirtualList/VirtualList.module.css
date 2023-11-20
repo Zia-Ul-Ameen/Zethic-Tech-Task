@@ -1,0 +1,50 @@
+.parent{
+    z-index: 1;
+    overflow: auto;
+  }
+  .parent div{
+    width: 100%;
+    height: 20px;
+    background-color: #FBFFDC;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .listTile{
+    border: 3px solid hsl(0, 0%, 0%,.4);
+    border-radius: 5px;
+  }
+  .OverviewParent{
+    z-index: 0;
+    position: absolute;
+    top: 5vh;
+    right: 0;
+    width: 100%;
+    height: 94%;
+    background-color:#fff;
+    margin-top: 2px;
+    overflow: hidden;
+  }
+  .OverViewList{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    margin-left: 50%;
+    margin-top:8%;
+  }
+  .OverViewList ul{
+    display: flex;
+   flex-direction: column;
+   gap: 50px;
+   list-style: none;
+  }
+  .ReactVirtualized__Grid__innerScrollContainer{
+    background-color: red;
+  }
+
+  @media (max-width:850px){
+    .OverViewList{
+        margin-left: 60%;
+    }
+  }

@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+  
+body{
+  font-family: 'roboto', sans-serif;
+}
+.Navbar{
+  width: 100%;
+  height: 5vh;
+  background-color: #61A3BA;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+
+}
+.Navbar ul{
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+.Navbar li{
+  padding: 1px 10px;
+  text-align: center;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.NavbarliSelected {
+  background-color: #fff;
+  color: #000000;
+  border-radius: 4px;
+}
+
+.virtualComment{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
